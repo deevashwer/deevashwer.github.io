@@ -9,6 +9,7 @@ layout: default
      {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
     </h1>
   </header>
+  </br>
 
   <article>
     {% if page.profile %}
@@ -24,17 +25,14 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="clearfix">
+    <!-- <div class="clearfix"> -->
+    <div>
       {{ content }}
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
-
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
+    <!-- {% if page.news %} -->
+    <!--   {% include news.html %} -->
+    <!-- {% endif %} -->
 
     {% if page.social %}
     <div class="social">

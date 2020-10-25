@@ -2,23 +2,31 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">Affiliations</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Display-Picture.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+years: [2020, 2019, 2018]
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Fellow (RF) at Microsoft Research (MSR) India. At MSR, I work closely with [Dr.&nbsp;Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/), [Dr. Divya Gupta](https://www.microsoft.com/en-us/research/people/digup/), [Dr. Aseem Rastogi](https://www.microsoft.com/en-us/research/people/aseemr/), and [Dr. Rahul Sharma](https://www.microsoft.com/en-us/research/people/rahsha/). Prior to joining MSR as an RF, I was also an intern here for 6 months.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I graduated from [Indian Institute of Technology (BHU) Varanasi](https://www.iitbhu.ac.in/) in 2020 with a Dual Degree (B.Tech. and M.Tech.) from the Department of Computer Science & Engineering.
+In the summer of 2019, I interned with [Prof. Thomas Schneider](https://www.sites.google.com/site/thomaschneider/) at TU Darmstadt.
+Before that, I did an internship at Kyushu University with [Prof. Masaya Yasuda](https://myasuda.imi.kyushu-u.ac.jp/en/) and at Waseda University with [Prof. Takeshi Koshiba](http://www.f.waseda.jp/tkoshiba/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests broadly lie in the applied and theoretical aspects of cryptography.
+
+<div class="publications">
+<h2>Publications</h2>
+{% for y in page.years %}
+  <h2 class="year"><b>{{y}}</b></h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+</div>
