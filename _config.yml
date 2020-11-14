@@ -101,6 +101,7 @@ exclude: [vendor]
 
 # Plug-ins
 plugins:
+  - jekyll-sitemap
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
