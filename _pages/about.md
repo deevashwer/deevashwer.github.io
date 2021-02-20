@@ -12,7 +12,7 @@ profile:
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-years: [2020, 2019, 2018, 2017]
+years: [2021, 2020, 2019, 2018, 2017]
 ---
 
 I am a Research Fellow (RF) at Microsoft Research (MSR) India. At MSR, I work closely with [Dr.&nbsp;Nishanth&nbsp;Chandran](https://www.microsoft.com/en-us/research/people/nichandr/), [Dr.&nbsp;Divya&nbsp;Gupta](https://www.microsoft.com/en-us/research/people/digup/), [Dr.&nbsp;Aseem&nbsp;Rastogi](https://www.microsoft.com/en-us/research/people/aseemr/), and [Dr.&nbsp;Rahul&nbsp;Sharma](https://www.microsoft.com/en-us/research/people/rahsha/). Prior to joining MSR as an RF, I was also an intern here for 6&nbsp;months.
