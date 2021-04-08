@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Deevashwer
 middle_name:
 last_name: Rathee
-email: deevashwerrathee10@gmail.com
+email: deevashwer@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Fellow at Microsoft Research India.
+  Research Fellow at Microsoft Research India. Incoming PhD Student at UC Berkeley.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -40,7 +40,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: deevashwer # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: ZmnNFp8AAAAJ # your Google Scholar ID
+scholar_userid: DHUsbuMAAAAJ # your Google Scholar ID
 dblp_userid: 223/6113 # your dblp ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
