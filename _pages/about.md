@@ -23,8 +23,6 @@ I graduated from [Indian Institute of Technology (BHU) Varanasi](https://www.iit
 In the summer of 2019, I interned with [Prof.&nbsp;Thomas&nbsp;Schneider](https://www.sites.google.com/site/thomaschneider/) at TU&nbsp;Darmstadt.
 Before that, I did an internship at Kyushu University with [Prof.&nbsp;Masaya&nbsp;Yasuda](https://myasuda.imi.kyushu-u.ac.jp/en/) and at Waseda University with [Prof.&nbsp;Takeshi&nbsp;Koshiba](http://www.f.waseda.jp/tkoshiba/).
 
-My research interests lie broadly in security with an emphasis on applied and theoretical aspects of cryptography.
-
 <div class="publications">
 <h2>Publications</h2>
 {% for y in page.years %}
